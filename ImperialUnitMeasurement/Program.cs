@@ -2,7 +2,7 @@
 
 namespace ImperialUnitMeasurement
 {
-    class Program
+    public class Program
     {
 
 
