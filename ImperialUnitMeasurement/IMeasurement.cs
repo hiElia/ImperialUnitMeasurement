@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ImperialUnitMeasurement
 {
-    interface IMeasurement
+    public interface IMeasurement
     {
+        public string UnitConvertor(string input);
+        public double GetConversionRate(string name);
+        public double ConvertFromBase(string input, double measurement);
+        public double ConvertToBase(string input, double measurement);
     }
 }
