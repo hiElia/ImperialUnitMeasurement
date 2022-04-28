@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImperialUnitMeasurement.Core
 {
-    public enum UnitType
-    {
-        ImperialLength = 1,
-        ImperialWeight = 2,
-        MetricLenghth = 3,
-        MetricWeight = 4
-    }
+    
     public class ImperialLengthUnitsConvertor : IMeasurement
     {
         public double Convert(string input, double inputvalue, string desiredInput)
