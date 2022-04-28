@@ -14,10 +14,7 @@ namespace ImperialUnitMeasurement
             //} while (true);
 
             //var reply = "";
-            //if (string.IsNullOrEmpty(reply))
-            //{
-            //    throw new Exception("No valid numbers are entered.");
-            //}
+       
             Console.WriteLine("Enter valid unit or q to quit");
 
             while (true)

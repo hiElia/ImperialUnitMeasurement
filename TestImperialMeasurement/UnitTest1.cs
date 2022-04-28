@@ -24,7 +24,7 @@ namespace TestImperialMeasurement
             // Act
             var valueInDesiredUnit = Program.Convert(input, inputValue, desiredUnit);
 
-            Assert.Equal(2, valueInDesiredUnit);
+            Assert.Equal(2, valueInDesiredUnit, 1);
 
         }
     }

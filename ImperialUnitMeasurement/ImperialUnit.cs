@@ -49,9 +49,14 @@ namespace ImperialUnitMeasurement
         //Foot (ft) 12 inches
         //Yard (yd) 3 feet
         //Furlong (fur) 220 yards
-
+       
         public string UnitConvertor(string input)
-        {
+        {   
+            if (string.IsNullOrEmpty(input))
+            {
+               throw new Exception("No valid input  entered.");
+            }
+           
             input = input.ToLowerInvariant();
             switch (input)
             {
