@@ -12,5 +12,6 @@ namespace ImperialUnitMeasurement
         public double GetConversionRate(string name);
         public double ConvertFromBase(string input, double measurement);
         public double ConvertToBase(string input, double measurement);
+        public double Convert(string input, double inputvalue, string desiredInput);
     }
 }

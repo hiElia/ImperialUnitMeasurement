@@ -15,16 +15,16 @@ namespace TestImperialMeasurement
             //Yard (yd) 3 feet
             //Furlong (fur) 220 yards
             // arrang
-            var unit = new ImperialUnit();
-            //var p = new Program();
-            var input = "THOU";
-            var inputValue = 1000;
-            var desiredUnit = "INch";
+            //var unit = new ImperialUnit();
+            ////var p = new Program();
+            //var input = "THOU";
+            //var inputValue = 1000;
+            //var desiredUnit = "INch";
 
-            // Act
-            var valueInDesiredUnit = Program.Convert(input, inputValue, desiredUnit);
+            //// Act
+            //var valueInDesiredUnit = Program.Convert(input, inputValue, desiredUnit);
 
-            Assert.Equal(2, valueInDesiredUnit, 1);
+            //Assert.Equal(2, valueInDesiredUnit, 1);
 
         }
     }
