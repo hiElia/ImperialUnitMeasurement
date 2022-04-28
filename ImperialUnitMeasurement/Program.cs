@@ -14,13 +14,14 @@ namespace ImperialUnitMeasurement
            .AddSingleton<IMeasurement, ImperialLengthUnitsConvertor>()
            .BuildServiceProvider();
             var measuremnetService = serviceProvider.GetService<IMeasurement>();
-           
-            
-            
-            Console.WriteLine("Enter valid unit and value to be converted such as,  2 inch in furlong ");
-            Console.WriteLine("Units that can be converted are: Inch,Yard,Furlong, Foot, Thou");
 
-           
+
+
+            Console.WriteLine("Units that can be converted are: Inch,Yard,Furlong, Foot, Thou.");
+            Console.WriteLine("-----------------------------------------------------------------------");            
+            Console.WriteLine("Enter valid unit and value to be converted such as,  2 inch in furlong ");
+
+
 
             while (true)
             {                 
