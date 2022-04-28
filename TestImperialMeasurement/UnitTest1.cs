@@ -10,14 +10,9 @@ namespace TestImperialMeasurement
         [Fact]
         public void Convert_1FurlongToYard_Return220()
         {
-            //        Thou (th)
-            //Inch (in) 1000 thous
-            //Foot (ft) 12 inches
-            //Yard (yd) 3 feet
-            //Furlong (fur) 220 yards
-            // arrang
+            
             var unit = new ImperialLengthUnitsConvertor();
-            //var p = new Program();
+            
             var input = "Fur";
             var inputValue = 1;
             var desiredUnit = "Yard";
@@ -31,14 +26,8 @@ namespace TestImperialMeasurement
         [Fact]
         public void Convert_oneFootToInch_Return12()
         {
-            //        Thou (th)
-            //Inch (in) 1000 thous
-            //Foot (ft) 12 inches
-            //Yard (yd) 3 feet
-            //Furlong (fur) 220 yards
-            // arrang
-            var unit = new ImperialLengthUnitsConvertor();
-            //var p = new Program();
+           
+            var unit = new ImperialLengthUnitsConvertor();       
             var input = "ft";
             var inputValue = 1;
             var desiredUnit = "in";
@@ -52,14 +41,8 @@ namespace TestImperialMeasurement
         [Fact]
         public void Convert_OnethouToInch_Return0001()
         {
-            //        Thou (th)
-            //Inch (in) 1000 thous
-            //Foot (ft) 12 inches
-            //Yard (yd) 3 feet
-            //Furlong (fur) 220 yards
-            // arrang
-            var unit = new ImperialLengthUnitsConvertor();
-            //var p = new Program();
+          
+            var unit = new ImperialLengthUnitsConvertor();         
             var input = "thou";
             var inputValue = 1;
             var desiredUnit = "in";
